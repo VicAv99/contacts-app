@@ -1,0 +1,20 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      Employee Contacts:
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let employeeContact of employeeContacts" (click)="selected.emit(employeeContact)">
+        <h1 matLine>{{employeeContact.name}}</h1>
+        <h2 matLine>{{employeeContact.phone}}</h2>
+        <h2 matLine>{{employeeContact.email}}</h2>
+        <h2 matLine>{{employeeContact.address}}</h2>
+        <button mat-icon-button (click)="deleted.emit(employeeContact)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

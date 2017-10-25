@@ -1,0 +1,39 @@
+{
+  "employee-contacts": [
+    {
+      "id": 1,
+      "name": "Sebastian Eschweiler",
+      "phone": "(555)555-55555",
+      "email": "sebastian@VPlex.com",
+      "address": "123 W South st"
+    },
+    {
+      "id": 2,
+      "name": "Steve Palmer",
+      "phone": "(222)222-2222",
+      "email": "steve@VPlex.com",
+      "address": "123 N East st"
+    },
+    {
+      "id": 3,
+      "name": "Ann Smith",
+      "phone": "(999)999-9999",
+      "email": "ann@VPlex.com",
+      "address": "123 Up South st"
+    },
+    {
+      "id": 4,
+      "name": "Carson Palmer",
+      "phone": "(234)746-7366",
+      "email": "C.Palmer@myArmBroke.com",
+      "address": "123 Not a Card Dr"
+    },
+    {
+      "id": 5,
+      "name": "Neal Caffrey",
+      "phone": "(777)777-7777",
+      "email": "neal@VPlex.com",
+      "address": "456 E North Ave"
+    }
+  ]
+}

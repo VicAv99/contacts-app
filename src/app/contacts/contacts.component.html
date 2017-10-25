@@ -1,0 +1,9 @@
+<app-contacts-details [employeeContact]="currentContact"
+                      (saved)="save($event)"
+                      (cancelled)="cancel($event)">
+</app-contacts-details>
+<hr>
+<app-contacts-list [employeeContacts]="employeeContacts"
+                   (selected)="select($event)"
+                   (deleted)="delete($event)">
+</app-contacts-list>

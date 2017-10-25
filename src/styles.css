@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  height: 100%;
+  display: flex;
+}
+
+p {
+  margin: 16px;
+}
+
+mat-toolbar-row {
+    justify-content: space-between;
+  }
+
+[mat-raised-button] {
+  width: 100%;
+}
+
+mat-sidenav-layout {
+  height: 100vh;
+}
+
+mat-sidenav {
+  width: 320px;
+}
+
+mat-sidenav a {
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 47px;
+  text-decoration: none;
+  padding: 0 16px;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 2px;
+  border-spacing: 0;
+  margin: 0 0 32px;
+  width: 100%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .24), 0 0 2px rgba(0, 0, 0, .12);
+}
+
+th {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 32px;
+  text-align: left;
+  color: rgba(0, 0, 0, .54);
+  background: rgba(0, 0, 0, .03);
+}
+
+td {
+  color: rgba(0, 0, 0, .54);
+  border: 1px solid rgba(0, 0, 0, .03);
+  font-weight: 400;
+  padding: 8px 30px;
+}
