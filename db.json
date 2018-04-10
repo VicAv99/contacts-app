@@ -34,6 +34,13 @@
       "phone": "(777)777-7777",
       "email": "neal@VPlex.com",
       "address": "456 E North Ave"
+    },
+    {
+      "id": 6,
+      "name": "Victor Avila Morales",
+      "phone": "602-326-6432",
+      "email": "victoravila2123@gmail.com",
+      "address": "1001 N 43 Ave #300"
     }
   ]
 }
